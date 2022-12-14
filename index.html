@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leon Template</title>
+    <link rel="stylesheet" href="./css/rest.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <!-- Work sans from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container flex between">
+        <div class="logo">
+          <a href="#">
+            <h1>Leon</h1>
+          </a>
+        </div>
+        <nav>
+          <div id="menuBtn" class="menu-btn flex column hidden">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <ul id="navLinks">
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="landing" class="landing">
+        <article>
+          <h2>Hello There!</h2>
+          <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+        </article>
+      </section>
+
+      <section id="features" class="features section-padding">
+        <div class="container flex around">
+          <div class="card">
+            <div class="icon"><i class="fas fa-magic fa-3x"></i></div>
+            <article>
+              <h3>Tell Us Your IDea</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fas fa-gem fa-3x"></i></div>
+            <article>
+              <h3>We Will Do All The Work</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+          </div>
+          <div class="card">
+            <div class="icon"><i class="fas fa-globe-asia fa-3x"></i></div>
+            <article>
+              <h3>Your Product is World Wide</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="services section-padding">
+        <div class="container">
+          <div class="hero-title">
+            <h3>Services</h3>
+            <span>Don't be busy, be productive</span>
+          </div>
+          <div class="services-content">
+            <div class="left">
+              <div class="card">
+                <div class="icon"><i class="fas fa-palette fa-2x"></i></div>
+                <article>
+                  <h3>Graphic Design</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Esse, suscipit.
+                  </p>
+                </article>
+              </div>
+              <div class="card">
+                <div class="icon"><i class="fab fa-sketch fa-2x"></i></div>
+                <article>
+                  <h3>Web Design</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Esse, suscipit.
+                  </p>
+                </article>
+              </div>
+              <div class="card">
+                <div class="icon"><i class="fas fa-brush fa-2x"></i></div>
+                <article>
+                  <h3>UI & UX</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Esse, suscipit.
+                  </p>
+                </article>
+              </div>
+              <div class="card">
+                <div class="icon">
+                  <i class="fas fa-pencil-ruler fa-2x"></i>
+                </div>
+                <article>
+                  <h3>Web Development</h3>
+                  <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Esse, suscipit.
+                  </p>
+                </article>
+              </div>
+            </div>
+            <div class="right">
+              <img src="./images/cover2.png" alt="black cat" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="portfolio section-padding">
+        <div class="container">
+          <div class="hero-title">
+            <h3>Portfolio</h3>
+            <span>If you do it right, It will last forever</span>
+          </div>
+          <div class="content grid">
+            <div class="card">
+              <img src="./images/project.jpg" alt="" />
+              <article>
+                <h4>Project Here</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium incidunt in enim ea rerum nulla repellat quia
+                  voluptate nam eligendi.
+                </p>
+              </article>
+            </div>
+            <div class="card">
+              <img src="./images/project.jpg" alt="" />
+              <article>
+                <h4>Project Here</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium incidunt in enim ea rerum nulla repellat quia
+                  voluptate nam eligendi.
+                </p>
+              </article>
+            </div>
+            <div class="card">
+              <img src="./images/project.jpg" alt="" />
+              <article>
+                <h4>Project Here</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium incidunt in enim ea rerum nulla repellat quia
+                  voluptate nam eligendi.
+                </p>
+              </article>
+            </div>
+          </div>
+          <button>Show Me More</button>
+        </div>
+      </section>
+
+      <section id="about" class="about section-padding">
+        <div class="container">
+          <div class="hero-title">
+            <h3>About</h3>
+            <span>Less is more</span>
+          </div>
+          <div class="content grid">
+            <img src="./images/cover2.png" alt="" />
+            <article>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero
+                a quos sequi cumque qui excepturi ab saepe aliquam sapiente
+                harum.
+              </p>
+              <span></span>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                veniam eos in, optio illo dolor nisi. Minus sequi, voluptatum
+                beatae accusamus nisi, laudantium obcaecati quae non sint, sit
+                unde minima.
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact section-padding">
+        <div class="container">
+          <div class="hero-title">
+            <h3>Contact</h3>
+            <span>We are born to create</span>
+          </div>
+          <div class="content">
+            <article>
+              <h3>Feel Free to drop us a line at:</h3>
+              <h3>
+                <a href="mailto:leonagency@mail.com">leonagency@mail.com</a>
+              </h3>
+              <p>
+                Find us on social networks:
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+              </p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>&copy; 2019 - <span>Leon</span> all rights reserved</p>
+      </footer>
+    </main>
+  </body>
+</html>
